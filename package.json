@@ -1,0 +1,19 @@
+{
+  "name": "serverless-detectron-api",
+  "version": "1.0.0",
+  "description": "A serverless API for interacting with a backing detectron service",
+  "main": "handler.js",
+  "keywords": [
+    "azure",
+    "serverless"
+  ],
+  "devDependencies": {
+    "serverless-azure-functions": "*"
+  },
+  "dependencies": {
+    "azure-storage": "^2.8.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.2.1"
+  }
+}
